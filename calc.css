@@ -1,0 +1,79 @@
+h1{
+    padding-bottom: 20px;
+}
+.box{
+   
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 430px;
+    width: 400px;
+ 
+}
+button{
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    height: 40px;
+    width: 50px;
+}
+#result{
+    height:20px;
+    margin-top:10%;
+    box-shadow: 3px 4px 2px rgb(182, 40, 40);
+    margin-bottom: 20px;
+}
+button{
+    background-image: radial-gradient(rgb(6, 144, 203),rgb(215, 220, 52));
+   margin-left: 4px;
+   margin-bottom: 3px;
+   border-bottom: 10px;
+    box-shadow: 3px 4px 2px rgb(6, 6, 5);
+}
+
+button:hover{
+    background-image: linear-gradient(rgb(5, 207, 133),rgb(0, 255, 255));
+    height: 30px;
+    width: 40px;
+    
+    transform:rotate(10deg);
+}
+.box:hover #result{
+   
+    background-image: radial-gradient(rgb(176, 169, 179),rgb(245, 181, 77));
+    box-shadow: 4px 6px 2px rgb(34, 35, 20);
+   
+}
+.box:hover{
+
+   background-color: rgb(18, 191, 218);
+   box-shadow: 10px 11px 7px rgb(19, 63, 184);
+ 
+}
+.heading{
+   padding-top: 15px;
+   border-bottom: 1.5px solid white;
+   color: white;
+    background-color: rgb(219, 11, 212);
+    text-shadow: 2.5px 3px 2px black;
+}
+.box:hover .heading{
+    color: black;
+    
+    background-color: rgb(149, 114, 182);
+}
+.box:hover button{
+
+   
+    background-color:rgb(149, 114, 182);
+    box-shadow: 1.5px 2px 1.5px 2px rgb(19, 63, 184);
+    background-image: linear-gradient(rgb(211, 14, 246),rgb(193, 167, 39));
+
+}
+
+.box:hover h1{
+    text-shadow: 2px 2px  rgb(255, 255, 255);
+}
+body{
+
+  
+    background-color:rgb(197, 82, 199);
+}
